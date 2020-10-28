@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed443280e75a8f54c810e54bdcc02323, type: 3}
-  m_Name: CarrotJuiceRecipe
+  m_Name: GrapeJuiceRecipe
   m_EditorClassIdentifier: 
   topRow:
   - {fileID: 0}
@@ -21,9 +21,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   bottomRow:
-  - {fileID: 11400000, guid: 046ff5522437d9f4d824bb1d7abaf218, type: 2}
+  - {fileID: 11400000, guid: eed8ee54684a0b844aa3552d663af8c8, type: 2}
   - {fileID: 11400000, guid: 918afb331b3230e44807837a5db21fe6, type: 2}
-  - {fileID: 11400000, guid: 046ff5522437d9f4d824bb1d7abaf218, type: 2}
+  - {fileID: 11400000, guid: eed8ee54684a0b844aa3552d663af8c8, type: 2}
   oneDSlotlist:
   - {fileID: 0}
   - {fileID: 0}
@@ -31,7 +31,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 11400000, guid: 046ff5522437d9f4d824bb1d7abaf218, type: 2}
+  - {fileID: 11400000, guid: eed8ee54684a0b844aa3552d663af8c8, type: 2}
   - {fileID: 11400000, guid: 918afb331b3230e44807837a5db21fe6, type: 2}
-  - {fileID: 11400000, guid: 046ff5522437d9f4d824bb1d7abaf218, type: 2}
-  output: {fileID: 11400000, guid: ab13d290ec9e0eb459b80737bfffceaf, type: 2}
+  - {fileID: 11400000, guid: eed8ee54684a0b844aa3552d663af8c8, type: 2}
+  output: {fileID: 11400000, guid: 911260033a4b1b74285e76255359c7af, type: 2}

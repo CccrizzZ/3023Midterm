@@ -98,7 +98,7 @@ public class ItemSlot : MonoBehaviour, IDropHandler, IPointerDownHandler, IPoint
         
         foreach (GameObject overObj in eventData.hovered)
         {
-            if (overObj != gameObject)
+            if (overObj != gameObject && currItem != null)
             {
 
                 if (overObj.GetComponent<ItemSlot>())
@@ -116,9 +116,6 @@ public class ItemSlot : MonoBehaviour, IDropHandler, IPointerDownHandler, IPoint
                         currItem = itemSlot.currItem;
                         itemSlot.currItem = prevItem;
 
-
-
-                        // Debug.Log(itemSlot.itemImage.sprite);
                         
                         // Set position and refresh
                         itemSlot.itemTransform.anchoredPosition = Vector3.zero;
@@ -126,6 +123,7 @@ public class ItemSlot : MonoBehaviour, IDropHandler, IPointerDownHandler, IPoint
 
                         // prevent duplication
                         UpdateSlotData();
+
 
                         // Clear all item in craft panel
                         if (transform.parent.name == "CraftOutput")

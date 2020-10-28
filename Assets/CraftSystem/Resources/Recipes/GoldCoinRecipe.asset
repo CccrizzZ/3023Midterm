@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed443280e75a8f54c810e54bdcc02323, type: 3}
-  m_Name: CarrotJuiceRecipe
+  m_Name: GoldCoinRecipe
   m_EditorClassIdentifier: 
   topRow:
   - {fileID: 0}
@@ -18,20 +18,20 @@ MonoBehaviour:
   - {fileID: 0}
   midRow:
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 1b763952fdd2eeb40976acf5e6e45808, type: 2}
   - {fileID: 0}
   bottomRow:
-  - {fileID: 11400000, guid: 046ff5522437d9f4d824bb1d7abaf218, type: 2}
-  - {fileID: 11400000, guid: 918afb331b3230e44807837a5db21fe6, type: 2}
-  - {fileID: 11400000, guid: 046ff5522437d9f4d824bb1d7abaf218, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   oneDSlotlist:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 11400000, guid: 1b763952fdd2eeb40976acf5e6e45808, type: 2}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 11400000, guid: 046ff5522437d9f4d824bb1d7abaf218, type: 2}
-  - {fileID: 11400000, guid: 918afb331b3230e44807837a5db21fe6, type: 2}
-  - {fileID: 11400000, guid: 046ff5522437d9f4d824bb1d7abaf218, type: 2}
-  output: {fileID: 11400000, guid: ab13d290ec9e0eb459b80737bfffceaf, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  output: {fileID: 11400000, guid: a0db64498677d70478dfef1293d987eb, type: 2}
